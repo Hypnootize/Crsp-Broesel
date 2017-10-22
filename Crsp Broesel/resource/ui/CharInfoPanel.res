@@ -21,7 +21,7 @@
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"surface20"
-		"titletextinsetX"	"40"
+		"titletextinsetX"	"0"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"WhiteS"
 		"titlebardisabledfgcolor_override"		"WhiteS"
@@ -115,11 +115,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
+		"tabxindent"	"15"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"20"
 		"transition_time" "0"
+		"yoffset"		"25"
 		
 		"HeaderLine"
 		{
@@ -141,7 +142,7 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
+			"textinsetx"		"0"
 			"font"				"surface18"
 			"selectedcolor"		"WhiteS"
 			"unselectedcolor"	"GrayText"	
