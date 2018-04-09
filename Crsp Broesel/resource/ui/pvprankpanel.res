@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,21 +200,20 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"0"
-			"ypos"			"2"
-			"wide"			"170"
+			"xpos"			"65"
+			"ypos"			"0"
+			"wide"			"165"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"surface20"
+			"font"			"surface14"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
@@ -213,37 +221,81 @@
 
 			if_mini
 			{
-				"xpos"			"65"
-				"ypos"			"5"
-				"wide"			"f0"
-				"visible"		"0"
-				"font"			"HudFontSmallishBold"
+				"visible"	"0"
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"0"
-			"ypos"			"20"
-			"wide"			"170"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
+			"ypos"			"16"
+			"wide"			"165"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"surface20"
+			"font"			"surface14"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"			"67"
-				"ypos"			"4"
-				"wide"			"f0"
-				"font"			"HudFontSmallestBold"
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+			}
+
+			"fonts"
+			{
+				"0"		"surface14"
+				"1"		"surface14"
+				"2"		"surface14"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"31"
+			"wide"			"165"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"surface14"
+			"fgcolor_override"	"255 255 255 255"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+			}
+
+			"fonts"
+			{
+				"0"		"surface14"
+				"1"		"surface14"
+				"2"		"surface14"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
@@ -251,8 +303,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
-			"ypos"			"1"
+			"xpos"			"64"
+			"ypos"			"0"
 			"wide"			"165"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
