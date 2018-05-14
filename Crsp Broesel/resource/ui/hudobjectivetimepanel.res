@@ -20,8 +20,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"				"9999"
 		}
 	}
 	
@@ -57,8 +56,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"				"9999"
 		}
 	}
 	
@@ -94,8 +92,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"				"9999"
 		}
 	}
 	
@@ -130,8 +127,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"				"9999"
 		}
 	}
 	
@@ -167,8 +163,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"				"9999"
 		}
 	}
 	
@@ -201,6 +196,12 @@
 		"font"					"surface14"
 		"fgcolor"				"255 255 255 255"
 		"bgcolor_override"		"0 0 0 95"
+		
+		if_match
+		{
+			"ypos"				"16"
+			"bgcolor_override"	"0 0 0 0"
+		}
 	}
 	
 	"ServerTimeLimitLabelBG"
@@ -211,5 +212,10 @@
 		"tall"					"0"
 		"visible"				"0"
 		"enabled"				"0"
+		
+		if_match
+		{
+			"xpos"				"9999"
+		}
 	}
 }
