@@ -1586,6 +1586,18 @@
 		"tall"						"480"
 		"PaintBackgroundType"		"2"
 	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-245"
+		"ypos"				"r120"
+		"wide"				"100"
+		"tall"				"100"
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
 	
 	PVEWinPanel
 	{
