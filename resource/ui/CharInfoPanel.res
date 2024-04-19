@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"settitlebarvisible"	"0"
+		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"mediumgray"
 		"infocus_bgcolor_override"		"mediumgray"
@@ -48,7 +48,7 @@
 	"BackgroundHeaderCustom"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundHeader2"
+		"fieldName"		"BackgroundHeaderCustom"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
@@ -79,7 +79,7 @@
 	"BackgroundFooterCustom"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter2"
+		"fieldName"		"BackgroundFooterCustom"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"1"
@@ -120,7 +120,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"20"
 		"transition_time" "0"
-		"yoffset"		"25"
+		"yoffset"		"10"
 		
 		"HeaderLine"
 		{
